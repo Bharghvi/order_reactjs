@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Order Menu</title>
+	<style type="text/css">
+
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+		html{
+			text-align: center;
+			font:14px normal Arial, sans-serif;
+    		color:#060309;
+    		background-color:#fff;
+		}
+
+		body{
+			text-align: center;
+			padding: 60px;
+		}
+
+		h1{
+			margin-bottom: 20px;
+		}
+
+		h2{
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+
+		.food{
+			list-style: none;
+			display: inline-block;
+			width: 350px;
+			text-align: left;
+		}
+
+		.food p{
+			display: block;
+			padding: 12px 20px;
+			background-color: #fff;
+			color: #000;
+			margin-bottom: 5px;
+			position: relative;
+			cursor: pointer;
+			transition: 0.3s;
+		}
+
+		.food p b{
+			position: absolute;
+			right: 30px;
+			line-height: 20px;
+			width: 100px;
+			color: #808787;
+			text-align: right;
+		}
+
+		.food p:hover{
+			background-color: #8099e6;
+		}
+
+		.food p.active{
+			color: #fff;
+			background-color: #3366cc;
+		}
+
+		.food p.active b{
+			color: #fff;
+		}
+
+		#sum p{
+			text-align: left;
+		}
+
+		#sum p b{
+			text-align: right;
+		}
+	
+	</style>
+</head>
+<body>
+<div id="app"></div>
+</body>
+</html>

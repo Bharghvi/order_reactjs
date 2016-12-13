@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Order Menu</title>
+	<style type="text/css">
+
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+		html{
+			text-align: center;
+			font:14px normal Arial, sans-serif;
+    		color:#626771;
+    		background-color:#fff;
+		}
+
+		body{
+			text-align: center;
+			padding: 60px;
+		}
+
+		h1{
+			margin-bottom: 20px;
+		}
+
+		h2{
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+
+		.food{
+			list-style: none;
+			display: inline-block;
+			width: 350px;
+			text-align: left;
+		}
+
+		.food p{
+			display: block;
+			padding: 12px 20px;
+			background-color: #f8f8f8;
+			color: #7B8585;
+			margin-bottom: 5px;
+			position: relative;
+			cursor: pointer;
+			transition: 0.3s;
+		}
+
+		.food p b{
+			position: absolute;
+			right: 30px;
+			line-height: 20px;
+			width: 100px;
+			color: #808787;
+			text-align: right;
+		}
+
+		.food p:hover{
+			background-color: #d8f2f1;
+		}
+
+		.food p.active{
+			color: #fff;
+			background-color: #41c7c2;
+		}
+
+		.food p.active b{
+			color: #fff;
+		}
+
+	
+	</style>
+</head>
+<body>
+<div id="app"></div>
+<script type="text/javascript" src="transformed.js"></script></body>
+</html>
