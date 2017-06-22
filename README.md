@@ -1,6 +1,10 @@
-# order_reactjs
+# Order Your Food
 
-React.js
+This is a React Component for ordering different dishes for meal. 
+In this, the corresponding values of the dishes clicked gets added and the total bill is calculated.
 
-This is a simple ordering form of a restaurant.
-In this, the corresponding values of the items clicked gets added and the total bill is calculated.
+Implementation of Presentational and Container Components.
+
+### Technologies Used
+* HTML/CSS
+* ReactJS
